@@ -1,0 +1,285 @@
+Package: libpt-dbg
+Source: ptlib
+Version: 2.10.9
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 38
+Depends: libpt2.10.9 (= 2.10.9)
+Homepage: http://www.opalvoip.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/ptlib/libpt-dbg_2.10.9_amd64.deb
+Size: 23390
+SHA256: 410a7cea6842f222d3b0c9ffd1b02a20942e8127013def0b6de1e7451c4bd24a
+SHA1: e25db8c26ab03f1a8b0ee21549aef86ba59e1936
+MD5sum: 217ad67d56c701bb0895e118082add0f
+Description: Portable Tools Library development debug files
+ This package contains the shared and static debug symbols of the library
+ PTLib, which is a moderately large class library that has its genesis
+ many years ago as a method to produce applications to run on both
+ Microsoft Windows and Unix X-Window systems.  This is not the debug compiled
+ version of PTLib which would yield much more detailled information as a
+ compromise of benefit and compile power consumption.
+
+Package: libpt-dev
+Source: ptlib
+Version: 2.10.9
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 16306
+Depends: libpt2.10.9 (= 2.10.9), libc6-dev, libssl-dev, libldap2-dev, libsdl1.2-dev, libexpat1-dev, libsasl2-dev, unixodbc-dev, pkg-config
+Homepage: http://www.opalvoip.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/ptlib/libpt-dev_2.10.9_amd64.deb
+Size: 3109820
+SHA256: 1b27a99decd130d1ceae0bf936a650ad1147a52b7a19106be90e2170ed03ed0b
+SHA1: 665eccdcf3bad10e5b8dfb5ad2f86560661938c4
+MD5sum: ea586a057c899cda0dabbcf2b132505e
+Description: Portable Tools Library development files
+ This package contains the headers and a static version of the library
+ PTLib, which is a moderately large class library that has its genesis
+ many years ago as a method to produce applications to run on both
+ Microsoft Windows and Unix X-Window systems.
+
+Package: libpt-doc
+Source: ptlib
+Version: 2.10.9
+Architecture: all
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 45677
+Depends: libjs-jquery
+Homepage: http://www.opalvoip.org/
+Priority: extra
+Section: doc
+Filename: pool/main/p/ptlib/libpt-doc_2.10.9_all.deb
+Size: 7281066
+SHA256: b31a43ae9b29e4e3b0d49f7bc82b5a43856bcb8fa3abaf93a2d023cb81881361
+SHA1: 52de7d8e148071d37355e1ac61805b8b4590372b
+MD5sum: 96a06bca0fb18f76b1f348d92d9d5a95
+Description: Portable Tools Library documentation & sample files
+ This package contains the documentation and samples to program with
+ PTLib, which is a moderately large class library that has its genesis
+ many years ago as a method to produce applications to run on both
+ Microsoft Windows and Unix X-Window systems.
+
+Package: libpt2.10.9
+Source: ptlib
+Version: 2.10.9
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 38
+Homepage: http://www.opalvoip.org/
+Priority: optional
+Section: libs
+Filename: pool/main/p/ptlib/libpt2.10.9_2.10.9_amd64.deb
+Size: 23598
+SHA256: bb349a31dda8dbf7408a6ea60e87857477bc3d45a900b315fb9a54898a407c7b
+SHA1: 0d8642597b64dc1fc819b5eaa5f340293e8b3579
+MD5sum: 2c59ac4e46524554ebfcccb0807c9d0d
+Description: Portable Tools Library
+ This package contains the shared version of the library PTLib, which is
+ a moderately large class library that has its genesis many years ago as
+ a method to produce applications to run on both Microsoft Windows and
+ Unix X-Window systems.
+ .
+ This package also contains all the current PTLib plugins (alsa, oss, pulse,
+ and v4l2).
+
+Package: libyate4.3.0
+Source: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 3883
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: libs
+Filename: pool/main/y/yate/libyate4.3.0_4.3.1-0_amd64.deb
+Size: 1478866
+SHA256: 7ba1d9510546c03548f1fb9206bb2a7878d54c1357ebb68475659eaa262951fa
+SHA1: 2779c5514b72d21a172bfa79dff2275b2caa2bc3
+MD5sum: 4d4c58549e7a8e6cb41ac5fffd597822
+Description: Shared library for YATE
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ This package contains shared library for yate.
+
+Package: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 2366
+Depends: yate-core (= 4.3.1-0), libyate4.3.0 (= 4.3.1-0), adduser, php5-cli
+Conflicts: yate (<= 2.2.0), yate-openh323 (<< 1.3.0), yate-pgsql (<< 1.3.0), yate-qt
+Replaces: yate (<= 2.2.0)
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: comm
+Filename: pool/main/y/yate/yate_4.3.1-0_amd64.deb
+Size: 837984
+SHA256: 2ccc90e931c073dc069210cece241ba4fab0cc764431931d4efe6660a833f34a
+SHA1: 3de140e8b26f412c6d7686b937fe50b075aa6c80
+MD5sum: 959c68716d24ec3dc9af7cb79f61091e
+Description: Yet Another Telephony Engine (YATE)
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+
+Package: yate-core
+Source: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 3629
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: libs
+Filename: pool/main/y/yate/yate-core_4.3.1-0_amd64.deb
+Size: 1343760
+SHA256: c2ae11ed856397ecf34610bd1d301c0c68bf4e4bb1b95a1bc2bba4bf18a46f45
+SHA1: 49b18e1cff7290209d1eb8d91c0abbc23a596ede
+MD5sum: 9eb8c49a819b48d47ae8c094ad6a93ed
+Description: YATE core modules
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ This package contains the core modules necessary for running YATE.
+
+Package: yate-dev
+Source: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 577
+Depends: libyate4.3.0 (= 4.3.1-0), yate (= 4.3.1-0)
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: libdevel
+Filename: pool/main/y/yate/yate-dev_4.3.1-0_amd64.deb
+Size: 116682
+SHA256: 0d50e50b7c7471a04e9011a644ba898146aa4afdc486651de11e5f8842cdf7a0
+SHA1: 5b8af4fcd7f0955ba71a1b37c6a0749f0481f914
+MD5sum: 634c68e7ce653ab2a47f22017eaa8675
+Description: Development files for YATE
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ This package contains development libraries for yate.
+
+Package: yate-doc
+Source: yate
+Version: 4.3.1-0
+Architecture: all
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 2687
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: doc
+Filename: pool/main/y/yate/yate-doc_4.3.1-0_all.deb
+Size: 343056
+SHA256: e1106386396f83cdbe4fff266595c01efe144203f2c31da27c972ee9c59a43f8
+SHA1: 1b8be8786f6bc77ffe2d475a65c517d66e892a7e
+MD5sum: a3a45047d0a17d89cfb42f7f5f1917ac
+Description: Documentation for yate
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ This package provides documentation for yate.
+
+Package: yate-mysql
+Source: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 45
+Depends: libmysqlclient-dev, yate (= 4.3.1-0)
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: comm
+Filename: pool/main/y/yate/yate-mysql_4.3.1-0_amd64.deb
+Size: 23214
+SHA256: e70394495c09a49d0b5e50f449e1bdfd3b71bbd69c5116911537d6353daa1dfa
+SHA1: 265d323db87b209f1bc40c10f6e5a3d0a20cc738
+MD5sum: ac4ab179a3698dcce3301b134b09ba2e
+Description: MySQL support module for YATE
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ This is the module that require MySQL.
+
+Package: yate-openh323
+Source: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 19
+Depends: libh323plus-dev, yate (= 4.3.1-0)
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: comm
+Filename: pool/main/y/yate/yate-openh323_4.3.1-0_amd64.deb
+Size: 13654
+SHA256: 6d5f20d700847932d4711f7bc71846c3dd0a985b9e7cc56f21f4d342e7303a3c
+SHA1: 9a40df26f8d702e7eb5f3f3660d952dc0c2dece7
+MD5sum: 8695761ac587db8cf081a0bb362e99a7
+Description: OpenH323 module for YATE
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ This is the OpenH323 module.
+
+Package: yate-pgsql
+Source: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 45
+Depends: libpq-dev, yate (= 4.3.1-0)
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: comm
+Filename: pool/main/y/yate/yate-pgsql_4.3.1-0_amd64.deb
+Size: 22366
+SHA256: 71d101804c10ad40b2d65a84068282b274fec0bd275624e7002f91e42ea95244
+SHA1: 7965cfb57d2b9d3d82c294a7cf5b0375b078f364
+MD5sum: 01cba6994005a02eb57dad9fec9e9de1
+Description: PostgreSQL module for yate
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ These are the modules that require PostgreSQL.
+
+Package: yate-qt4
+Source: yate
+Version: 4.3.1-0
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 2115
+Depends: yate-core (= 4.3.1-0)
+Conflicts: yate-core (<< 4)
+Breaks: yate-core (<< 4)
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: comm
+Filename: pool/main/y/yate/yate-qt4_4.3.1-0_amd64.deb
+Size: 576994
+SHA256: 2ddd7602618eaf67978c70630e639e9a225e7a9de16a7ec3f190e5bbf2728e74
+SHA1: 2155275cab6fbb180bd8cd0d9acb0b6836dea888
+MD5sum: 033de780a001c47f12a7aede58fbd36d
+Description: YATE-based universal telephony client
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ YateClient uses the same telephony code to produce a software desktop VoIP
+ (SIP, H.323, IAX2) phone. yate-qt4 uses this to provide such a telephony
+

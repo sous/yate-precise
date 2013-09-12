@@ -1,0 +1,42 @@
+Package: libpt-doc
+Source: ptlib
+Version: 2.10.9
+Architecture: all
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 45677
+Depends: libjs-jquery
+Homepage: http://www.opalvoip.org/
+Priority: extra
+Section: doc
+Filename: pool/main/p/ptlib/libpt-doc_2.10.9_all.deb
+Size: 7281066
+SHA256: b31a43ae9b29e4e3b0d49f7bc82b5a43856bcb8fa3abaf93a2d023cb81881361
+SHA1: 52de7d8e148071d37355e1ac61805b8b4590372b
+MD5sum: 96a06bca0fb18f76b1f348d92d9d5a95
+Description: Portable Tools Library documentation & sample files
+ This package contains the documentation and samples to program with
+ PTLib, which is a moderately large class library that has its genesis
+ many years ago as a method to produce applications to run on both
+ Microsoft Windows and Unix X-Window systems.
+
+Package: yate-doc
+Source: yate
+Version: 4.3.1-0
+Architecture: all
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 2687
+Homepage: http://yate.null.ro/
+Priority: optional
+Section: doc
+Filename: pool/main/y/yate/yate-doc_4.3.1-0_all.deb
+Size: 343056
+SHA256: e1106386396f83cdbe4fff266595c01efe144203f2c31da27c972ee9c59a43f8
+SHA1: 1b8be8786f6bc77ffe2d475a65c517d66e892a7e
+MD5sum: a3a45047d0a17d89cfb42f7f5f1917ac
+Description: Documentation for yate
+ YATE is a telephony engine aimed at creating a telephony server that
+ performs well enough to deal with PBX requirements and also flexible
+ enough for complex Gateway and IVR solutions.
+ .
+ This package provides documentation for yate.
+
